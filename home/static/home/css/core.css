@@ -1,0 +1,24 @@
+html,
+body {
+    height: 100%;
+}
+
+.container-fluid {
+    min-height: 100%;
+}
+
+.i {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.font {
+    font-family: courier;
+}

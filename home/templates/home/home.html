@@ -1,0 +1,97 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block upperbody %}
+
+  <div class="container">
+   
+        <div class="row">
+        <p class="font text-center h6  text-light justify-content-center fs-5 mt-5 ">To work in learning and challenging environment, utilizing my skill and
+          knowledge to be the best of my abilities and contribute positively to my
+          personal growth as well as growth organization. Undergraduate student
+          at Sir Syed Universityof Engineering & Technology pursuinga bachelor's
+          degree inSoftwareEngineering. I intend to apply the knowledge that
+          I've gained from my coursework, as well as self-study and hard effort, to
+          complete my internship at your firm, and I'm also eager to learn more
+          from it.</p>
+
+         <div class=" text-center ">
+            
+            <img src="{%static 'home/image/pro.jpg'%}" alt="profile class" class="image-fluid rounded-circle" style="margin-top:30px" width="100px" height="100px">
+        </div>
+
+        </div>
+    </div>
+    
+{% endblock upperbody %}
+
+
+{% block mainbody %}
+
+
+ <div class="col-sm-4 mt-0">
+
+  <div class="card  mx-auto text-center bg-dark border border-danger" style="width: 17rem;">
+    <img src="{%static 'home/image/pro3.jpg'%}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-info">Educational Records</h5>
+      <a href="/edu/education/" class="btn btn-danger">Education</a>
+    </div>
+  </div>
+
+ </div>
+
+
+ <div class="col-sm-4 mt-0">
+
+{% comment %} <div class="card bg-success" style="width:400px">
+  <img class="card-img-top" style="height:250px" src="{%static 'home/image/pro2.jpg'%}" alt="Card image">
+  <div class="card-body text-center">
+    <h4 class="card-title">My Skills</h4>
+    
+    <a href="/ski/skill/" class="btn btn-primary">Skills</a>
+  </div>
+</div> {% endcomment %}
+
+<div class="card mx-auto text-center bg-dark border-danger" style="width: 17rem;">
+  <img src="{%static 'home/image/pro3.jpg'%}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-info">Skills Records</h5>
+    <a href="/ski/skill/" class="btn btn-danger">Skills</a>
+  </div>
+</div>
+
+
+
+
+ </div>
+
+
+ <div class="col-sm-4 mt-0">
+
+    {% comment %} <div class="card bg-success" style="width:400px">
+        <img class="card-img-top" style="height:250px" src="{%static 'home/image/pro3.jpg'%}" alt="Card image">
+        <div class="card-body text-center">
+          <h4 class="card-title">Let's Talk</h4>
+          
+          <a href="/con/contact/" class="btn btn-primary ">Contact Us</a>
+        </div>
+      </div> {% endcomment %}
+
+      <div class="card  mx-auto text-center bg-dark border-danger" style="width: 17rem;">
+        <img src="{%static 'home/image/pro3.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-info">Hire Me</h5>
+          <a href="/con/contact/" class="btn btn-danger">Contact Info</a>
+        </div>
+      </div>
+    
+     </div>
+
+ </div>
+
+{% endblock mainbody %}
+
+
+
+
